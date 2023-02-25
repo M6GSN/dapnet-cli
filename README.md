@@ -5,7 +5,7 @@ For this you will need an account at [https://hampager.de/](https://hampager.de/
 
 The Script
 
-the command line below is also included in the ssh file attached to this project
+the command line below is also included in the sh file attached to this project
 
 `curl -H "Content-Type: application/json" -X POST -u yourcallsign:yourpassword -d '{ "text": "this is the message", "callSignNames": ["destinationcallsign"], "transmitterGroupNames": ["all"], "emergency": false }' http://www.hampager.de:8080/calls
 `
@@ -21,7 +21,7 @@ this is the message
 destinationcallsign.
 
 
-if you download the ssh file dont forget to run `chmod +x send.ssh`
+if you download the sh file dont forget to run `chmod +x send.sh`
 
 Pleas make sure to include you callsign in your message I personaly put my callsign at the end because when using digital mode our callsigns are our signitures and where do you sign a document
 
