@@ -1,0 +1,1 @@
+curl -H "Content-Type: application/json" -X POST -u yourcallsign:yourpassword -d '{ "text": "this is the message", "callSignNames": ["destinationcallsign"], "transmitterGroupNames": ["all"], "emergency": false }' http://www.hampager.de:8080/calls
