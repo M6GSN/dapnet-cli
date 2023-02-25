@@ -1,9 +1,11 @@
 # DAPNET cli
  How to send Pager messages via the Linux command line.
 
-For this you will need an account at [https://hampager.de/](https://hampager.de/) and a computer running Linux or at lease a USB stick with a live version of Linux I would recomend Linux Mint.
+For this you will need an account at [https://hampager.de/](https://hampager.de/) and a computer running Linux or at least a USB stick with a live version of Linux I would recomend Linux Mint.
 
-The Script the command line below is also included in the ssh file attached to this project
+The Script
+
+the command line below is also included in the ssh file attached to this project
 
 `curl -H "Content-Type: application/json" -X POST -u yourcallsign:yourpassword -d '{ "text": "this is the message", "callSignNames": ["destinationcallsign"], "transmitterGroupNames": ["all"], "emergency": false }' http://www.hampager.de:8080/calls
 `
