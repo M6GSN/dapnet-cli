@@ -21,6 +21,6 @@ destinationcallsign.
 
 if you download the ssh file dont forget to run `chmod +x send.ssh`
 
-Pleas makesre to include you callsign in your message I personaly put my callsign at the end because when using digital mode our callsigns are our signitures and where do you sign a document
+Pleas make sure to include you callsign in your message I personaly put my callsign at the end because when using digital mode our callsigns are our signitures and where do you sign a document
 
 
