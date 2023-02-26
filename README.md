@@ -20,6 +20,21 @@ this is the message
 
 destinationcallsign.
 
+if all things work out well you should see the following message 
+
+`{
+  "text": "This is the message ",
+  "callSignNames": [
+    "theirrcall"
+  ],
+  "transmitterGroupNames": [
+    "all"
+  ],
+  "emergency": false,
+  "timestamp": "2023-02-11T20:58:19.617341Z",
+  "ownerName": "yourcall"
+}`
+
 
 if you download the sh file dont forget to run `chmod +x send.sh`
 
